@@ -1,0 +1,65 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  gap: 10px;
+  padding: 20px;
+}
+
+.dialogs {
+  padding: 10px;
+  background-color: rgb(255, 224, 218);
+  border-radius: 5px;
+}
+
+.item {
+  margin: 10px 0;
+}
+
+.dialog_avatar {
+  width: 100%;
+  max-width: 50px;
+  min-height: 50px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #2d2d2d;
+}
+
+.active {
+  color: tomato;
+}
+
+.messages {
+  padding: 10px;
+  background-color: rgb(255, 224, 218);
+  border-radius: 5px;
+}
+
+.message {
+  display: flex;
+  margin: 10px 0;
+}
+
+.person {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.avatar {
+  width: 100%;
+  max-width: 50px;
+  min-height: 50px;
+}
+
+.text {
+  width: 100%;
+  max-width: 200px;
+  padding: 10px;
+  background-color: rgb(191, 255, 234);
+  border-radius: 5px;
+}

@@ -1,0 +1,26 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.App {
+  text-align: start;
+}
+
+.container {
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+  'header header'
+  'nav profile';
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  gap: 10px;
+}
+
+.content {
+  grid-area: profile;
+  background-color: rgb(53, 110, 185);
+}
+
