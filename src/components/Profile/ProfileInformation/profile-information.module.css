@@ -1,0 +1,22 @@
+.profile_bg {
+  width: 100%;
+  min-height: 260px;
+  background: url('https://phonoteka.org/uploads/posts/2022-01/thumbs/1643216775_4-phonoteka-org-p-fon-dlya-shapki-profilya-5.jpg') no-repeat center center / cover;
+}
+
+.profile_info {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.avatar {
+  width: 100%;
+  max-width: 200px;
+  min-height: 200px;
+  margin-right: 10px;
+}
+
+.user_descr {
+  display: inline-block;
+}

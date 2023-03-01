@@ -1,0 +1,12 @@
+.post {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.avatar {
+  width: 100%;
+  max-width: 50px;
+  min-height: 50px;
+  margin-right: 20px;
+}
