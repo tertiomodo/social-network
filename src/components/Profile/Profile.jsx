@@ -5,9 +5,9 @@ import MyPosts from './MyPosts/MyPosts';
 const Profile = (props) => {
   return (
     <main>
-      <ProfileInformation avatar={props.state.avatar} />
-      <WriteField />
-      <MyPosts state={props.state} />
+      <ProfileInformation myInfo={props.profilePage.myInfo} />
+      <WriteField dispatch={props.dispatch} newPostText={props.profilePage.newPostText} />
+      <MyPosts profilePage={props.profilePage} />
     </main>
   );
 };

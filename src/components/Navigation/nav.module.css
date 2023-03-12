@@ -4,6 +4,10 @@
   background-color: rgb(63, 151, 63);
 }
 
+.list {
+  margin-bottom: 50px;
+}
+
 .link {
   font-size: 20px;
   color: #ffffff;
@@ -11,4 +15,27 @@
 
 .active {
   color: gold;
+}
+
+.friends_title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.best_friend {
+  display: flex;
+  justify-content: space-around;
+}
+
+.avatar {
+  width: 100%;
+  max-width: 80px;
+  min-height: 80px;
+  border-radius: 100%;
+}
+
+.name {
+  text-align: center;
 }

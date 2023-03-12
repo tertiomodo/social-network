@@ -40,6 +40,14 @@
   border-radius: 5px;
 }
 
+.messages_wrapper {
+  width: 100%;
+  max-width: 1000px;
+  max-height: 330px;
+  margin-bottom: 10px;
+  overflow: scroll;
+}
+
 .message {
   display: flex;
   margin: 10px 0;
@@ -62,4 +70,30 @@
   padding: 10px;
   background-color: rgb(191, 255, 234);
   border-radius: 5px;
+}
+
+.write_field_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.write_field {
+  width: 72%;
+  height: 40px;
+  padding: 10px;
+  margin: 0;
+  resize: none;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.send_button {
+  margin-left: 10px;
+  padding: 5px 15px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #b7b7b7;
+  border-radius: 10px;
 }
