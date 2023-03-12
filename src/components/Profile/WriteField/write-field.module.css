@@ -8,12 +8,21 @@
   margin-bottom: 10px;
 }
 
-.write_fied {
+.write_field {
   width: 100%;
   min-height: 200px;
+  margin-bottom: 20px;
   padding: 10px;
   resize: none;
   outline: none;
   border: none;
   border-radius: 5px;
+}
+
+.button {
+  padding: 10px 60px;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: #56ef8e;
+  border-radius: 10px;
 }
