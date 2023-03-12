@@ -13,11 +13,11 @@ const App = (props) => {
   return (
     <div className="container">
       <Header />
-      <Nav />
+      <Nav sidebar={props.state.sidebar} />
       <div className="content">
         <Routes>
-          <Route path="/profile" element={<Profile state={props.state.profilePage} />} />
-          <Route path="/messages/*" element={<Messages state={props.state.messagesPage} />}/>
+          <Route path="/profile" element={<Profile profilePage={props.state.profilePage} dispatch={props.dispatch} />} />
+          <Route path="/messages/*" element={<Messages messagesPage={props.state.messagesPage} dispatch={props.dispatch} />}/>
           <Route path="/news" element={<News />} />
           <Route path="/music" element={<Music />} />
           <Route path="/settings" element={<Settings />} />

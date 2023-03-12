@@ -2,7 +2,7 @@ import style from './my-posts.module.css';
 import Post from './Post/Post';
 
 const MyPosts = (props) => {
-  const postsElements = props.state.posts.map(post => (<Post message={post.message} likes={post.likes} key={post.id} avatar={props.state.avatar} />));
+  const postsElements = props.profilePage.posts.map(post => (<Post message={post.message} likes={post.likes} key={post.id} avatar={props.profilePage.myInfo[0].avatar} />));
 
   return (
     <div className={style.post_wrap}>
